@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sorteador.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>SORTEADOR DE NÚMEROS</h1>
+  </header>
+  
+  <br>
+  <main>
+   <div id="form">
+    <section>
+      <h3>SELECIONE A QUANTIDADE DE NÚMEROS SORTEADOS: </h3><br>
+      <br>
+      <label for="idez"><input type="radio" name="radio" id="idez">de 0 à 10 </label>
+      <label for="ivintcinco"><input type="radio" name="radio" id="ivintcinco">de 0 à 25 </label>
+      <label for="icinqnt"><input type="radio" name="radio" id="icinqnt">de 0 à 50 </label>
+      <label for="icem"><input type="radio" name="radio" id="icem">de 0 à 100 </label>
+      <label for="imil"><input type="radio" name="radio" id="imil">de 0 à 1000 </label>
+      <br>
+      <br>
+      <button type="submit" onclick="clicou()"> CLICAR</button>
+      <button type="reset" onclick="limpou()">LIMPAR</button>
+      <br>
+      <br>
+      <section id="saida">
+       <p>O resultado vem aqui...</p>
+      </section>
+    </section>
+   </div>
+  </main>
+
+  <script src="sorteador.js"></script>
+</body>
+</html>
